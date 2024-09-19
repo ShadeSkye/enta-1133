@@ -21,7 +21,7 @@ namespace AmeliaNLab2
             Random randomSide;
             randomSide = new Random();
 
-            side = randomSide.Next(minRoll, maxRoll);
+            side = randomSide.Next(minRoll, maxRoll + 1);
 
             Console.WriteLine(side + "!");  //represents what side the die landed on
             Console.WriteLine("");
