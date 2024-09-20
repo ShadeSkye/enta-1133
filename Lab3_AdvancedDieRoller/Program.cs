@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             
-
+            IntroSequence x = new IntroSequence();
+            x.Intro();
 
         }
     }
