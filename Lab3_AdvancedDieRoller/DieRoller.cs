@@ -8,7 +8,23 @@ namespace Lab3_AdvancedDieRoller
 {
     internal class DieRoller
     {
+        public int ComputerDie = 0;
 
+        internal void ComputerPickDie()
+        {
+            Random RandomDie = new Random();
+            ComputerDie = RandomDie.Next(1, 5);
+
+
+
+        }
+
+        internal void RollPlayerDie()
+        {
+
+
+
+        }
 
 
 
