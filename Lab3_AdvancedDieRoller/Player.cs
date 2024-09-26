@@ -10,7 +10,6 @@ namespace Lab3_AdvancedDieRoller
     {
         public string PlayerName = "";
         public string PlayerDie = "";
-        public int MaxRoll = 0;
 
         internal void PickPlayerDie()
         {
@@ -20,29 +19,12 @@ namespace Lab3_AdvancedDieRoller
 
             if (PlayerDie != "d6" && PlayerDie != "d8" && PlayerDie != "d12" && PlayerDie != "d20")
             {
-                Console.WriteLine("\nThat's not a suitable answer.");
+                Console.WriteLine("\nThat's not a suitable answer");
                 PickPlayerDie();
+
             }
 
-            if (PlayerDie == "d6")
-            {
-                MaxRoll = 7;
-            }
 
-            else if (PlayerDie == "d8")
-            {
-                MaxRoll = 9;
-            }
-
-            else if (PlayerDie == "d12")
-            {
-                MaxRoll = 13;
-            }
-
-            else if (PlayerDie == "d20")
-            {
-                MaxRoll = 21;
-            }
         }
 
 

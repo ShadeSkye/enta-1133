@@ -9,11 +9,7 @@ namespace Lab3_AdvancedDieRoller
     internal class GameManager
     {
 
-        internal void StartGame()
-        {
-            IntroSequence IntroSequenceInstance = new IntroSequence();
-            IntroSequenceInstance.Intro();
-        }
+        
 
 
 

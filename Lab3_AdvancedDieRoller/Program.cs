@@ -4,8 +4,12 @@
     {
         static void Main(string[] args)
         {
-            GameManager GameManagerInstance = new GameManager();
-            GameManagerInstance.StartGame();
+            
+            IntroSequence x = new IntroSequence();
+            x.Intro();
+
+            Player z = new Player();
+            z.PickPlayerDie();
 
         }
     }
