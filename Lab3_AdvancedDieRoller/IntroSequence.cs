@@ -23,7 +23,8 @@ namespace Lab3_AdvancedDieRoller
             WillYouPlay();
             AskPlayerName();
             ExplainRules();
-            
+            Results ResultsInstance = new Results();
+            ResultsInstance.GameEnd();
 
         }
 
