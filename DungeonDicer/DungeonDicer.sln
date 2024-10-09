@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonDicer", "DungeonDicer.csproj", "{3BF3EA71-3EF2-4716-BAC4-A379216FFF8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonDicer", "DungeonDicer.csproj", "{5F4421C8-37CC-41D9-8525-C62BECCD34B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3BF3EA71-3EF2-4716-BAC4-A379216FFF8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3BF3EA71-3EF2-4716-BAC4-A379216FFF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3BF3EA71-3EF2-4716-BAC4-A379216FFF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3BF3EA71-3EF2-4716-BAC4-A379216FFF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4421C8-37CC-41D9-8525-C62BECCD34B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4421C8-37CC-41D9-8525-C62BECCD34B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4421C8-37CC-41D9-8525-C62BECCD34B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4421C8-37CC-41D9-8525-C62BECCD34B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DD60A1B3-9E32-4597-AF8A-F1B273C39C39}
+		SolutionGuid = {DF65E564-0CCD-41CB-BBBA-3082CE5F6940}
 	EndGlobalSection
 EndGlobal
